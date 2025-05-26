@@ -1,0 +1,93 @@
+.certificates {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-certificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 1%;
+  /* background-color: #f2f2f2; */
+  /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  margin: 2%;
+}
+.user-certificates input {
+  width: 95%;
+}
+.user-certificates button {
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: #c02424;
+  border: 1px solid;
+  margin: 1% 0;
+  padding: 1% 1%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.user-certificates button:hover {
+  color: #c02424;
+  border: 1px solid #c02424;
+  background-color: #fff;
+}
+.user-certificates input,
+textarea {
+  color: #000;
+  margin: 10px 0;
+}
+.user-certificates {
+  font-size: 20px;
+}
+
+.certificate-user-data,
+.upload-certificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 1%;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 2%;
+  width: 100%;
+}
+.certificate-user-data .certificate-input {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: ; */
+  align-items: center;
+}
+.certificate-user-data .certificate-input input {
+  margin: 20px;
+}
+.certificate-user-data-head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+.certificate-user-data-head h3 {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+.certificate-user-data p {
+  padding: 0;
+  margin: 0;
+}
+/* .certificate-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.certificate-input label {
+  width: 45%;
+}
+
+.certificate-input input {
+  width: 50%;
+} */
